@@ -53,7 +53,7 @@ try:
     print("Solution")
     print(solution)
     solutionpoint =  "(${0:.2f}, ${1:.2f})".format(solution[0], solution[1]);
-    plt.plot(solution[0],solution[1],'bx'); # blue circle
+    plt.plot(solution[0],solution[1],'bo'); # blue circle
     plt.annotate( solutionpoint,(solution[0],solution[1]));
 except:
     print("No solution")
