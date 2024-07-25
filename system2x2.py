@@ -20,7 +20,9 @@ XMIN, XMAX = -5, 5
 YMIN, YMAX = -5, 5
 GRIDSIZE = 1
 
-STEPS = 101
+# linear equations requires only 2 points because 2 points determines a line
+# use higher numbers to graph other functions so more points used
+STEPS = 2  
 
 
 a11 = A[0][0];
